@@ -21,27 +21,31 @@ body {
     align-content: space-between;
     position: relative;
     width: 450px;
-    height: 420px;
+    height: 70vh;
     background-color: white;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px #f2f2f2;
 }
 
-.login-page {
+.login-form {
     width: 100%;
 }
 
-.icon {
-    color: white;
+.user-icon {
     font-size: 30px;
     background-color: #8d448b;
     border-radius: 50%;
     width: 80px;
     height: 80px;
+    position: relative;
+    top: 10px;
+}
+i{
+    color: #fff;
     position: absolute;
-    top: 3%;
-    align-items: center;
+    top: 25px;
+    left: 25px;
 }
 
 .main-box h3 {
@@ -81,6 +85,7 @@ body {
 .remember-forget label input {
     accent-color: #8d448b;
     margin-right: 10px;
+
 }
 
 label.accent {
@@ -114,8 +119,25 @@ input::placeholder {
     font-size: 14px;
     font-family: "Poppins", Helvetica, sans-serif;
 }
-input.checkbox{
-    color: #f2f2f2;
+/* input[type="checkbox"]{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color:#f2f2f2;
     cursor: pointer;
-    border-style: none;
+    outline: none;
 }
+input[type="checkbox"]:after{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+input[type="checkbox"]:checked{
+    background-color: #8d448b;
+}
+input[type="checkbox"]:checked::after{
+display: block;} */
