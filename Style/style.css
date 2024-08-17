@@ -39,7 +39,7 @@ body {
     width: 80px;
     height: 80px;
     position: relative;
-    top: 10px;
+    /* top: 10px; */
 }
 i{
     color: #fff;
@@ -53,7 +53,7 @@ i{
     font-weight: 700;
     font-size: 20px;
     padding: 30px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .input-field {
